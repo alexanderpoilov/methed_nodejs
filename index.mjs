@@ -1,9 +1,6 @@
-import createUserTemplate from './mpackage/main.mjs';
- 
-const userData = {
-  name: 'александр пойлов',
-  dateBirth: '04.03.1985',
-  purpose: 'старший куратор'
-};
+import timer from './mpackage/taskOne.mjs';
+import chat from './mpackage/taskTwo.mjs';
 
-console.log(createUserTemplate(userData));
+chat();
+
+timer(0, 20, 100);
