@@ -1,0 +1,22 @@
+{
+  "name": "methed_nodejs",
+  "version": "1.0.0",
+  "description": "nodejs methed course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderpoilov/methed_nodejs.git"
+  },
+  "author": "Alexander Poilov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderpoilov/methed_nodejs/issues"
+  },
+  "homepage": "https://github.com/alexanderpoilov/methed_nodejs#readme",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
