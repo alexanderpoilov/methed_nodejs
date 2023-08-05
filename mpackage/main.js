@@ -5,7 +5,7 @@ const createUUID = () => {
   });
 }
 
-const setFirstLetterCapital = word => word ? word[0].toUpperCase() + word.slice(1)
+const setFirstLetterCapital = word => word ? word[0].toUpperCase() + word.toLowerCase().slice(1)
   : 'не указано';
 
 const getAge = date => ((new Date().getTime() - new Date(date)) / 
