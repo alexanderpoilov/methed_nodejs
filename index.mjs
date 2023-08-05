@@ -1,5 +1,4 @@
-// import createUserTemplate from './mpackage/main.mjs';
-const createUserTemplate = require('mpackage');
+import createUserTemplate from './mpackage/main.mjs';
  
 const userData = {
   name: 'александр пойлов',

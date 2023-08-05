@@ -1,4 +1,3 @@
-// import createUserTemplate from './mpackage/main.mjs';
 const createUserTemplate = require('./mpackage');
  
 const userData = {
