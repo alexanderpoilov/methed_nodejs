@@ -38,7 +38,7 @@ class Logger extends EventEmitter {
         .then(data => {
           console.log();
         })
-      // writeFile(this.fileName,)
+      // writeFile(this.fileNam≠e,)
     } catch(e) {
       console.error(e.message);
     }
