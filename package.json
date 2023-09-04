@@ -1,8 +1,8 @@
 {
-  "name": "methed_nodejs",
+  "name": "template-project",
   "version": "1.0.0",
-  "description": "methed nodejs course",
-  "main": "index.mjs",
+  "description": "template node js project",
+  "main": "index.js",
   "scripts": {
     "start": "node index",
     "dev": "nodemon index",
@@ -13,7 +13,7 @@
     "node",
     "app"
   ],
-  "author": "Alexander Poilov <alexanderpoilov@gmail.com>",
+  "author": "Maksim Leskin <maksim.leskin@methed.ru>",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.46.0",
